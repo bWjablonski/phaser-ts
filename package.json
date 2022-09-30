@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve --open --config webpack.development.js"
+    "dev": "webpack serve --open --config webpack.development.js",
+    "dist": "webpack --config webpack.distribution.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bWjablonski/phaser-ts.git"
@@ -25,6 +25,8 @@
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
