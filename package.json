@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --open --config webpack.development.js",
-    "dist": "webpack --config webpack.distribution.js"
+    "dist": "webpack --config webpack.distribution.js",
+    "serve-dist": "npx http-server dist"
   },
   "repository": {
     "type": "git",
